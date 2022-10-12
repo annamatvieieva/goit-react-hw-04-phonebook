@@ -7,7 +7,6 @@ export const ContactList = ({ contacts, onClick }) => {
       {contacts.map(({ id, name, number }) => {
         return (
           <Contact key={id}>
-            {' '}
             <p>
               {name}: {number}
             </p>
